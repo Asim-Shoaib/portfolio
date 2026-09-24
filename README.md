@@ -3,7 +3,7 @@
 Asim Shoaib - 504888 - BESE-15A
 CS344 Web Engineering, Fall 2026
 
-Live site: (GitHub Pages link goes here)
+Live site: https://asim-shoaib.github.io/portfolio/
 
 ## Pages
 - `index.html` - Home / About Me
