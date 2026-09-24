@@ -1,0 +1,32 @@
+body { font-family: "Segoe UI", Roboto, Arial, sans-serif; margin: 0; line-height: 1.7; color: #334155; background: #f1f5f9; }
+.content { max-width: 800px; margin: 30px auto; padding: 10px 40px 30px; background: #fff; border-radius: 10px; box-shadow: 0 2px 12px rgba(15, 23, 42, 0.08); }
+h1 { color: #0f172a; font-size: 2.2em; letter-spacing: -0.5px; border-bottom: 3px solid #2563eb; padding-bottom: 8px; }
+h2 { color: #1e3a8a; font-size: 1.35em; margin-top: 30px; }
+
+/* Top ribbon navigation */
+nav { position: sticky; top: 0; z-index: 10; background: #0f172a; padding: 0 20px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); }
+nav::after { content: ""; display: block; clear: both; }
+nav a { float: left; padding: 15px 18px; color: #cbd5e1; text-decoration: none; font-weight: 500; border-bottom: 3px solid transparent; transition: color 0.2s, border-color 0.2s; }
+nav a:hover, nav a.active { color: #fff; border-bottom-color: #2563eb; }
+
+a { color: #2563eb; text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul { padding-left: 20px; }
+li { margin-bottom: 4px; }
+
+/* Rounded tables */
+table { border-collapse: separate; border-spacing: 0; width: 100%; margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th { background: #eff6ff; color: #1e3a8a; font-weight: 600; }
+tr:nth-child(even) td { background: #f8fafc; }
+
+/* Float layouts */
+img { border-radius: 8px; }
+.float-right { float: right; width: 250px; margin: 0 0 10px 20px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
+.content h2 { clear: both; }
+.gallery img { float: left; width: 30%; margin: 1.5%; box-sizing: border-box; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); transition: transform 0.2s; }
+.gallery img:hover { transform: scale(1.04); }
+.clear { clear: both; }
+
+footer { margin-top: 40px; border-top: 1px solid #e2e8f0; padding-top: 12px; font-size: 13px; color: #94a3b8; text-align: center; }
